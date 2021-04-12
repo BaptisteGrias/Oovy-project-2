@@ -1,11 +1,12 @@
-import './structurehomepage.css';
+//import './Components/stucturehomepage.css';
 import Homepage from './Components/stucturehomepage';
 
 function App() {
-  return;
-  <div>
-    <Homepage />;
-  </div>;
+  return (
+    <div>
+      <Homepage />
+    </div>
+  );
 }
 
 export default App;

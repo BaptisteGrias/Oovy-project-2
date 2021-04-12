@@ -1,11 +1,15 @@
 import React from 'react';
-import './structurehomepage.css';
-import logo from './logo-oovy-png';
+//import './structurehomepage.css';
 
 export default function Homepage() {
   return (
     <div>
-      <img src={logo} />
+      <div className="logo">
+        <img src="logo-oovy.png" alt="logo" />
+      </div>
+      <div>
+        <h3>C'est l'heure parfaite pour un film !</h3>
+      </div>
     </div>
   );
 }
