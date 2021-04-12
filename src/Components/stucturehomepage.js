@@ -1,5 +1,5 @@
 import React from 'react';
-//import './structurehomepage.css';
+import './structurehomepage.css';
 
 export default function Homepage() {
   return (
@@ -7,8 +7,12 @@ export default function Homepage() {
       <div className="logo">
         <img src="logo-oovy.png" alt="logo" />
       </div>
-      <div>
-        <h3>C'est l'heure parfaite pour un film !</h3>
+      <div className="para">
+        <h2>C'est l'heure parfaite pour un film !</h2>
+      </div>
+      <div className="choose">
+        <div className="needHelp">J'ai besoin d'aide !</div>
+        <div className="noHelp">Laisser moi faire !</div>
       </div>
     </div>
   );

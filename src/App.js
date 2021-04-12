@@ -1,4 +1,3 @@
-//import './Components/stucturehomepage.css';
 import Homepage from './Components/stucturehomepage';
 
 function App() {
