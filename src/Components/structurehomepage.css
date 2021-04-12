@@ -43,6 +43,7 @@ body {
   margin-top: 45%;
   font-size: 2em;
   font-family: 'Fugaz One', solid;
+  color: black;
 }
 
 .noHelp {
@@ -62,4 +63,5 @@ body {
   margin-top: 45%;
   font-size: 2em;
   font-family: 'Fugaz One';
+  color: black;
 }

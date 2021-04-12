@@ -11,12 +11,12 @@ export default function Homepage() {
         <h2>C'est l'heure parfaite pour un film !</h2>
       </div>
       <div className="choose">
-        <div className="needHelp">
+        <a href="#" className="needHelp">
           <div className="text1">J'ai besoin d'aide !</div>
-        </div>
-        <div className="noHelp">
+        </a>
+        <a href="#" className="noHelp">
           <div className="text2">Laisser moi faire !</div>
-        </div>
+        </a>
       </div>
     </div>
   );
