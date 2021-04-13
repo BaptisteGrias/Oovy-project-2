@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 
 body {
-  background-color: rgb(8, 8, 8);
+  color: black;
+  background-color: white;
+  background-image: url(https://www.bouyguestelecom.fr/static/services/option-mobile/mosaique-serie-plateforme-netflix.jpg);
+  margin: 0;
 }
 
 .logo {
