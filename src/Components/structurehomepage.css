@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
 
 body {
-  color: black;
-  background-color: white;
   background-image: url(https://www.bouyguestelecom.fr/static/services/option-mobile/mosaique-serie-plateforme-netflix.jpg);
   margin: 0;
 }
 
-.logo {
+.oovy {
   display: flex;
   justify-content: center;
   margin-top: 5em;
@@ -27,6 +25,8 @@ body {
   justify-content: space-around;
   margin-top: 5em;
   margin-bottom: 5em;
+  margin-left: 3em;
+  margin-right: 3em;
 }
 
 .needHelp {
@@ -37,16 +37,18 @@ body {
   background: -webkit-linear-gradient(-45deg, #3b1fea 0%, #114161 50%, #1e075c 100%);
   background: linear-gradient(135deg, #3b1fea 0%, #114161 50%, #1e075c 100%);
   border: 5px solid black;
+  border-radius: 5%;
   display: inline-block;
+  margin-right: 1em;
+  display: flex;
 }
 
 .text1 {
-  display: flex;
-  justify-content: center;
-  margin-top: 45%;
+  text-align: center;
   font-size: 2em;
   font-family: 'Fugaz One', solid;
   color: black;
+  margin: auto;
 }
 
 .noHelp {
@@ -57,14 +59,92 @@ body {
   background: -webkit-linear-gradient(-45deg, #3b1fea 0%, #114161 50%, #1e075c 100%);
   background: linear-gradient(135deg, #3b1fea 0%, #114161 50%, #1e075c 100%);
   border: 5px solid black;
+  border-radius: 5%;
   display: inline-block;
+  margin-left: 1em;
+  display: flex;
 }
 
 .text2 {
-  display: flex;
-  justify-content: center;
-  margin-top: 45%;
+  text-align: center;
   font-size: 2em;
   font-family: 'Fugaz One';
   color: black;
+  margin: auto;
+}
+
+/*********************************Media-Queries***************************/
+
+@media (max-width: 375px) {
+  .logo {
+    width: 100%;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .para {
+    text-align: center;
+  }
+
+  .choose {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .needHelp {
+    margin-bottom: 20px;
+    width: 80%;
+    height: 17em;
+  }
+
+  .text1 {
+    text-align: center;
+  }
+
+  .noHelp {
+    width: 80%;
+    height: 17em;
+    margin-left: -1em;
+  }
+
+  .text2 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  .logo {
+    width: 100%;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .para {
+    text-align: center;
+  }
+
+  .choose {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .needHelp {
+    margin-bottom: 20px;
+    width: 80%;
+    height: 17em;
+  }
+
+  .text1 {
+    text-align: center;
+  }
+
+  .noHelp {
+    width: 80%;
+    height: 17em;
+    margin-left: -1em;
+  }
+
+  .text2 {
+    text-align: center;
+  }
 }

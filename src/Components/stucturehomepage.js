@@ -4,18 +4,18 @@ import './structurehomepage.css';
 export default function Homepage() {
   return (
     <div>
-      <div className="logo">
-        <img src="logo-oovy.png" alt="logo" />
+      <div className="oovy">
+        <img className="logo" src="logo-oovy.png" alt="logo" />
       </div>
       <div className="para">
         <h2>C'est l'heure parfaite pour un film !</h2>
       </div>
       <div className="choose">
         <a href="#" className="needHelp">
-          <div className="text1">J'ai besoin d'aide !</div>
+          <p className="text1">J'ai besoin d'aide !</p>
         </a>
         <a href="#" className="noHelp">
-          <div className="text2">Laisser moi faire !</div>
+          <p className="text2">Laisser moi faire !</p>
         </a>
       </div>
     </div>
