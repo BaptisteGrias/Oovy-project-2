@@ -1,0 +1,30 @@
+.main-footer {
+  background-color: black;
+  color: white;
+  margin: 10px;
+  border: 2px solid black;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ul {
+  display: inline-flex;
+  justify-content: space-around;
+}
+/*.col {
+  display: table-column;
+  justify-content: space-between;
+}*/
+
+.list-Medias {
+  padding: 0;
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.hr {
+  width: 95%;
+}
