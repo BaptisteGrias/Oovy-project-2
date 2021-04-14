@@ -1,3 +1,10 @@
+Oovy Guidelines :
+
+Nom branche : nomUserStory_section (exemple : P2WCS14_footerMobile)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
