@@ -10,7 +10,7 @@ const Footer = () => {
             <h4>Conditions générales</h4>
           </div>
           <div className="col">
-            <h4>Medias Sociaux</h4>
+            
             <ul className="list-Medias">
               <li>
                 <a href="https://www.instagram.com/?hl=fr" target="_blank">

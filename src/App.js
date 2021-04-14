@@ -1,11 +1,12 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import Footer from './components/Footer'
-
+import Footer from './Components/Footer/Footer';
+import Headerallpages from './Components/headerallpages';
 
 function App() {
   return (
-    <div className='App'>
+    <div>
+      <Headerallpages />
       <Footer />
     </div>
   );
