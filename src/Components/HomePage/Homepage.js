@@ -1,21 +1,26 @@
 import React from 'react';
 import './Homepage.css';
 
+const img = 'Oovyblanc2.png';
+const textPara = "C'est l'heure parfaite pour un film !";
+const cardOne = "J'ai besoin d'aide !";
+const cardTwo = 'Laisser moi faire !';
+
 export default function Homepage() {
   return (
     <div>
       <div className="oovy">
-        <img className="logo" src="logo-oovy.png" alt="logo" />
+        <img className="logo" src={img} alt="logo" />
       </div>
       <div className="para">
-        <h2>C'est l'heure parfaite pour un film !</h2>
+        <h2>{textPara}</h2>
       </div>
       <div className="choose">
         <a href="#" className="needHelp">
-          <p className="text1">J'ai besoin d'aide !</p>
+          <p className="text1">{cardOne}</p>
         </a>
         <a href="#" className="noHelp">
-          <p className="text2">Laisser moi faire !</p>
+          <p className="text2">{cardTwo}</p>
         </a>
       </div>
     </div>
