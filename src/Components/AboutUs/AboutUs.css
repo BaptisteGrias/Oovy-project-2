@@ -1,8 +1,23 @@
+body {
+  background-color: beige;
+}
+
+.apropos {
+  margin-top: 5%;
+}
+
 .text1 {
+  margin-left: 10%;
 }
 
 .contains {
   height: 150px;
-  width: 80%;
-  border: 5px solid;
+  width: 70%;
+  border: 2px solid;
+  margin-left: 10%;
+  display: flex;
+}
+
+.description {
+  margin: auto;
 }
