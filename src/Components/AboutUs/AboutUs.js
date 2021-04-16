@@ -1,14 +1,16 @@
 import React from 'react';
 import './AboutUs.css';
 
+const paraOne = 'A propos :';
+const description = "Ceci est la description des membres de l'équipe Oovy et blabla et blabla";
+
 export default function AboutUs() {
   return (
-    <div className="apropos">
-      <h2 className="text1">A propos :</h2>
+    <div>
+      <p className="trait"></p>
+      <h2 className="text1">{paraOne}</h2>
       <div className="contains">
-        <p className="description">
-          lorem40bbbbbbbbbbbbbbbbbbbbruemlhurenmqonamn'iCÔINRNEJBIUBQUSRJGBAPIEUBPIUEQBAMBIPUJKLKZBNEILBUISDBBKTMJNZUNBIUBIbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbtydgmugiyftxcvliyvlubuigbmibuljklihrkgnohsioebglbibeknbligbuibvsirtbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-        </p>
+        <p className="description">{description}</p>
       </div>
     </div>
   );
