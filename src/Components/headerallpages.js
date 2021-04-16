@@ -3,8 +3,8 @@ import './headerallpages.css';
 
 export default function Headerallpages() {
   return (
-    <div className="headerlogo">
-      <img src="logo-oovy.png" alt="logo" />
+    <div className="header">
+      <img className="headerlogo" src="Oovyblanc2.png" alt="logo" />
     </div>
   );
 }

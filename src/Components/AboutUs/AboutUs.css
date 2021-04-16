@@ -1,23 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+script&display=swap');
+
 body {
-  background-color: beige;
+  background-color: #20212a;
+  background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
 }
 
 .apropos {
   margin-top: 5%;
+  position: relative;
+  left: 180px;
 }
 
 .text1 {
-  margin-left: 10%;
+  font-size: 2em;
+  color: rgb(158, 70, 70);
+  font-family: Oleo Script solid;
 }
 
 .contains {
   height: 150px;
   width: 70%;
   border: 2px solid;
-  margin-left: 10%;
-  display: flex;
 }
 
 .description {
-  margin: auto;
+  color: rgb(158, 70, 70);
+  font-size: 1.2em;
+  font-family: Oleo Script solid;
+  word-wrap: break-word;
+  margin: 10px 10px 10px 10px;
+}
+
+/*********************************Media-Queries***************************/
+
+@media (max-width: 375px) {
 }

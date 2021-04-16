@@ -7,7 +7,7 @@ export default function AboutUs() {
       <h2 className="text1">A propos :</h2>
       <div className="contains">
         <p className="description">
-          lorem40bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb{' '}
+          lorem40bbbbbbbbbbbbbbbbbbbbruemlhurenmqonamn'iCÔINRNEJBIUBQUSRJGBAPIEUBPIUEQBAMBIPUJKLKZBNEILBUISDBBKTMJNZUNBIUBIbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbtydgmugiyftxcvliyvlubuigbmibuljklihrkgnohsioebglbibeknbligbuibvsirtbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
         </p>
       </div>
     </div>
