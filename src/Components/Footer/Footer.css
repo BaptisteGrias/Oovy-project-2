@@ -1,8 +1,7 @@
-.main-footer {
+.Footer {
   background-color: black;
   color: white;
-  margin-top: 200px;
-  /*margin: 1px;*/
+  margin: 1px;
   border: 2px solid black;
 }
 
@@ -11,22 +10,11 @@
   justify-content: space-around;
 }
 
-.ul {
-  display: inline-flex;
-  justify-content: space-around;
-}
-
-.col {
-  display: flex;
-}
-
-.list-Medias {
-  padding: 0px;
+.Medias {
   margin: auto;
   display: inline-flex;
-  list-style-type: none;
 }
 
-.hr {
+hr {
   width: 97%;
 }
