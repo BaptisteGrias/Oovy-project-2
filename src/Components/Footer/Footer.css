@@ -1,0 +1,20 @@
+.Footer {
+  background-color: black;
+  color: white;
+  margin: 1px;
+  border: 2px solid black;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Medias {
+  margin: auto;
+  display: inline-flex;
+}
+
+hr {
+  width: 97%;
+}
