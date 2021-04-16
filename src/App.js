@@ -1,10 +1,11 @@
-import './App.css';
-import Headerallpages from './Components/headerallpages';
+
+import Homepage from './Components/HomePage/Homepage';
+
 
 function App() {
   return (
     <div>
-      <Headerallpages />
+      <Homepage />
     </div>
   );
 }
