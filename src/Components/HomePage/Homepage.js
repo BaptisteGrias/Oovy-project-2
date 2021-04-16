@@ -12,6 +12,7 @@ export default function Homepage() {
       <div className="oovy">
         <img className="logo" src={img} alt="logo" />
       </div>
+      <div className="trait"></div>
       <div className="para">
         <h2>{textPara}</h2>
       </div>
