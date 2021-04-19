@@ -1,12 +1,7 @@
 import React from 'react';
-import Headerallpages from '../headerallpages';
 
 const NeedHelp = () => {
-  return (
-    <div>
-      <Headerallpages />
-    </div>
-  );
+  return <div></div>;
 };
 
 export default NeedHelp;
