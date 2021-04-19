@@ -1,6 +1,6 @@
 .headerlogo {
   display: flex;
-  justify-content: center;
+  margin: auto;
   height: 10em;
-  background-color: rgb(8, 8, 8);
+  width: 25em;
 }

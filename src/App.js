@@ -1,14 +1,22 @@
 import React from 'react';
 import Homepage from './Components/HomePage/Homepage';
 import Footer from './Components/Footer/Footer';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import Headerallpages from './Components/headerallpages';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      <Footer />
-      <Homepage />
-    </div>
+    <Router>
+      <div>
+        <Headerallpages />
+
+        <Switch>
+          <Route path="/homepage" components={Homepage}>
+            <Homepage />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
