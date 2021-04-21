@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
         <div className="col3">
           <h4>
-            <Link to="">À propos de l'équipe</Link>
+            <Link to="/AboutUs">À propos de l'équipe</Link>
           </h4>
         </div>
       </div>
