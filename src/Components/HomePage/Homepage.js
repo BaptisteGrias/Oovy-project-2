@@ -18,12 +18,12 @@ export default function Homepage() {
         <h2>{textPara}</h2>
       </div>
       <div className="choose">
-        <Link className="needHelp" to="/needhelp">
+        <Link className="needHelp" to="/NeedHelp">
           <p className="text1">{cardOne}</p>
         </Link>
-        <a href="#" className="noHelp">
+        <Link className="noHelp" to="/Filters">
           <p className="text2">{cardTwo}</p>
-        </a>
+        </Link>
       </div>
     </div>
   );

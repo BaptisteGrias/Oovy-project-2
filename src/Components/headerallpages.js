@@ -1,7 +1,6 @@
 import React from 'react';
 import './headerallpages.css';
 import { Link } from 'react-router-dom';
-import Homepage from './HomePage/Homepage';
 
 export default function Headerallpages() {
   return (
