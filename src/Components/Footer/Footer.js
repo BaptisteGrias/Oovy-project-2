@@ -4,9 +4,16 @@ import './Footer.css';
 const Footer = () => {
   return (
     <div className="Footer">
-      <div className="row">
+      <div className="row1">
         <div className="col1">
-          <h4>Conditions générales</h4>
+          <a href="https://www.themoviedb.org/" target="_blank">
+            <img
+              src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_long_1-8ba2ac31f354005783fab473602c34c3f4fd207150182061e425d366e4f34596.svg"
+              alt="Tmdb Logo"
+              width="200px"
+              height="30px"
+            />
+          </a>
         </div>
         <div className="col2">
           <a href="https://fr-fr.facebook.com/" target="_blank">
@@ -21,12 +28,12 @@ const Footer = () => {
         </div>
         <div className="col3">
           <h4>
-            <a href="">À propos de l'équipe</a>
+            <a href="./Components/AboutUs.js">À propos de l'équipe</a>
           </h4>
         </div>
       </div>
       <hr />
-      <div className="row">
+      <div className="row2">
         <p className="col-sm">&copy;{new Date().getFullYear()} Oovy France | Tous droits réservés | Mentions légales | Conditions d'utilisation</p>
       </div>
     </div>
