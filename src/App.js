@@ -1,12 +1,12 @@
-import './App.css';
-import AboutUs from './Components/AboutUs/AboutUs';
-import Headerallpages from './Components/headerallpages';
+import React from 'react';
+import MyRouter from './Components/Router/Router';
+
 
 function App() {
   return (
     <div>
-      <Headerallpages />
-      <AboutUs />
+      <MyRouter />
+
     </div>
   );
 }
