@@ -5,9 +5,11 @@ import { Link } from 'react-router-dom';
 export default function Headerallpages() {
   return (
     <div>
-      <Link className="headerlogo" to="/homepage">
-        <img src="Oovyblanc2.png" alt="logo" />
-      </Link>
+      <div>
+        <Link className="headerlogo" to="/homepage">
+          <img className="logoheader" src="Oovyblanc2.png" alt="logo" />
+        </Link>
+      </div>
     </div>
   );
 }
