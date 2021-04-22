@@ -3,9 +3,10 @@
 body {
   background-color: #20212a;
   background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
+  margin: auto;
 }
 
-.trait {
+.trait_aboutus {
   opacity: 0.7;
   width: 70%;
   border-top: 2px solid;
@@ -14,7 +15,7 @@ body {
   color: rgb(158, 70, 70);
 }
 
-.text1 {
+.text1_aboutus {
   margin-top: 10%;
   font-size: 180%;
   color: rgb(158, 70, 70);

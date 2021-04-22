@@ -7,8 +7,8 @@ const description = "Ceci est la description des membres de l'équipe Oovy et bl
 export default function AboutUs() {
   return (
     <div>
-      <p className="trait"></p>
-      <h2 className="text1">{paraOne}</h2>
+      <p className="trait_aboutus"></p>
+      <h2 className="text1_aboutus">{paraOne}</h2>
       <div className="contains">
         <p className="description">{description}</p>
       </div>
