@@ -1,27 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
+import './Filters.css';
+import Headerallpages from '../headerallpages';
+import Footer from '../Footer/Footer';
 
-const Dropdown = ({ startYear, endYear }) => {
-  const [years, setYears] = useState(
-    ((startYear, endYear) => {
-      let tabYears = [];
-      for (let i = startYear; i < endYear; i++) {
-        tabYears.push(i);
-      }
-      return tabYears;
-    })(startYear, endYear),
-  );
-
+const Filters = () => {
   return (
-    <select>
-      {years.map((year, index) => {
-        return (
-          <option key={index} value={year}>
-            {year}
-          </option>
-        );
-      })}
-    </select>
+    <div>
+      <Headerallpages />
+      <Footer />
+    </div>
   );
 };
 
-export default Dropdown;
+export default Filters;
+

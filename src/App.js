@@ -1,13 +1,10 @@
 import React from 'react';
-import Homepage from './Components/HomePage/Homepage';
-import Footer from './Components/Footer/Footer';
-import Dropdown from './Components/Filters/Filters';
+import MyRouter from './Components/Router/Router';
 
 function App() {
   return (
     <div>
-      <Dropdown startYear={1980} endYear={2022} />
-      <Dropdown startYear={1980} endYear={2022} />
+      <MyRouter />
     </div>
   );
 }
