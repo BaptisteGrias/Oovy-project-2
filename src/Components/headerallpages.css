@@ -1,33 +1,6 @@
-.header {
-  display: flex;
-  justify-content: center;
-  margin-top: 4em;
-}
-
 .headerlogo {
-  background-color: #20212a;
-  background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
-}
-
-/*********************************Media-Queries***************************/
-
-@media (max-width: 375px) {
-  .headerlogo {
-    width: 55%;
-    margin-left: 1em;
-    margin-right: 1em;
-  }
-}
-
-@media (min-width: 375px) and (max-width: 768px) {
-  .headerlogo {
-    width: 55%;
-    margin-left: 1em;
-    margin-right: 1em;
-  }
-
+  display: flex;
   margin: auto;
   height: 10em;
   width: 25em;
-
 }
