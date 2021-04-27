@@ -1,0 +1,13 @@
+body {
+  background-color: #20212a;
+  background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
+  margin: 0;
+}
+
+.filmList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
