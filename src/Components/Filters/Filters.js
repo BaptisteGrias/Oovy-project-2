@@ -1,27 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
+import Dropdown from './Years';
+import RatingClearable from './Rating';
 
-const Dropdown = ({ startYear, endYear }) => {
-  const [years, setYears] = useState(
-    ((startYear, endYear) => {
-      let tabYears = [];
-      for (let i = startYear; i < endYear; i++) {
-        tabYears.push(i);
-      }
-      return tabYears;
-    })(startYear, endYear),
-  );
-
+function Filters() {
   return (
-    <select>
-      {years.map((year, index) => {
-        return (
-          <option key={index} value={year}>
-            {year}
-          </option>
-        );
-      })}
-    </select>
+    <div>
+      <Dropdown startYear={1980} endYear={2012} />
+      <Dropdown startYear={1980} endYear={2012} />
+      <RatingClearable />
+    </div>
   );
-};
+}
 
-export default Dropdown;
+export default Filters;
