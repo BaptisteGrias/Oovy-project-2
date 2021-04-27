@@ -1,12 +1,13 @@
 import React from 'react';
-import Homepage from './Components/HomePage/Homepage';
-import Footer from './Components/Footer/Footer';
-import Filters from './Components/Filters/Filters';
-import Rating from './Components/Filters/Apirating';
+
+import MyRouter from './Components/Router/Router';
+
+
 function App() {
   return (
     <div>
-      <Rating />
+      <MyRouter />
+
     </div>
   );
 }

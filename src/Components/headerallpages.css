@@ -1,6 +1,23 @@
 .headerlogo {
   display: flex;
   justify-content: center;
-  height: 10em;
-  background-color: rgb(8, 8, 8);
+  margin-top: 3em;
+}
+
+/*********************************Media-Queries***************************/
+
+@media (max-width: 375px) {
+  .logoheader {
+    width: 55%;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  .logoheader {
+    width: 55%;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Homepage.css';
+import { Link } from 'react-router-dom';
 
 const img = 'Oovyblanc2.png';
 const textPara = "C'est l'heure parfaite pour un film !";
@@ -17,12 +18,12 @@ export default function Homepage() {
         <h2>{textPara}</h2>
       </div>
       <div className="choose">
-        <a href="#" className="needHelp">
+        <Link className="needHelp" to="/NeedHelp">
           <p className="text1">{cardOne}</p>
-        </a>
-        <a href="#" className="noHelp">
+        </Link>
+        <Link className="noHelp" to="/Filters">
           <p className="text2">{cardTwo}</p>
-        </a>
+        </Link>
       </div>
     </div>
   );
