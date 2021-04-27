@@ -1,0 +1,12 @@
+body { 
+    /* background: #20212a;*/
+     background: #0f1923; 
+     font-family: "Muli"; 
+ }
+ 
+ .boutonCategorie { 
+     display: flex; 
+     justify-content: center; 
+     flex-direction: row; 
+     flex-wrap: wrap;
+ }
