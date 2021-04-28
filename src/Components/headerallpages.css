@@ -1,0 +1,23 @@
+.headerlogo {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+/*********************************Media-Queries***************************/
+
+@media (max-width: 375px) {
+  .logoheader {
+    width: 55%;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  .logoheader {
+    width: 55%;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
