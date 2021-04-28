@@ -35,7 +35,13 @@ function Filters() {
       <Dropdown startYear={1980} endYear={2012} />
       <div className="filmList">
         {filmFilteredGenres.slice(0, limit ? limit : setFilmFilteredGenres.length).map((film, index) => (
-          <Card original_title={film.original_title} poster_path={film.poster_path} overview={film.overview} />
+          <Card
+            original_title={film.original_title}
+            poster_path={film.poster_path}
+            overview={film.overview}
+            vote_average={film.vote_average}
+            release_date={film.release_date}
+          />
         ))}
       </div>
 

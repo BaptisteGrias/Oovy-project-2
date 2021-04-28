@@ -6,6 +6,7 @@
   position: relative;
 }
 .txtcontenu {
+  color: white;
   position: absolute;
   left: 0;
   top: 0;
@@ -17,9 +18,18 @@
   transition: 0.5s;
 }
 .conteneura:hover .imgcontenu {
-  opacity: 0.5;
+  opacity: 0.05;
 }
 
 .conteneura:hover .txtcontenu {
   opacity: 1;
+}
+
+.color {
+  color: rgb(192, 51, 51);
+}
+
+.color1 {
+  color: rgb(192, 51, 51);
+  margin-bottom: 20px;
 }
