@@ -28,6 +28,11 @@ hr {
   text-align: center;
 }
 
+.col3 a {
+  text-decoration: none;
+  color: white;
+}
+
 @media (min-width: 400px) and (max-width: 625px) {
   .col1 img {
     padding-top: 2px;

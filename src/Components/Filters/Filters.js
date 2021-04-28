@@ -3,7 +3,6 @@ import './Filters.css';
 import Headerallpages from '../headerallpages';
 import Footer from '../Footer/Footer';
 import Dropdown from './Years';
-import RatingClearable from './Rating';
 import axios from "axios";
 import Card from "./Card";
 import Categorie from "./Categorie";
@@ -35,7 +34,6 @@ useEffect(() => {
       <Categorie films={films} setFilmFilteredGenres={setFilmFilteredGenres}/>
       <Dropdown startYear={1980} endYear={2012} />
       <Dropdown startYear={1980} endYear={2012} />
-      <RatingClearable />
       <div className="filmList">
         {filmFilteredGenres
           .map((film, index) => (
