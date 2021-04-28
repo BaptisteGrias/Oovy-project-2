@@ -1,4 +1,25 @@
-.filmTitle{
-    color: aliceblue;
+.filmTitle {
+  color: aliceblue;
+  text-align: center;
+}
+.conteneura {
+  position: relative;
+}
+.txtcontenu {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: 0.5s;
+  z-index: 2;
+}
+.imgcontenu {
+  transition: 0.5s;
+}
+.conteneura:hover .imgcontenu {
+  opacity: 0.5;
+}
 
+.conteneura:hover .txtcontenu {
+  opacity: 1;
 }
