@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 export default function Headerallpages() {
   return (
     <div>
-      <div>
-        <Link className="headerlogo" to="/homepage">
+      <div className="headerlogo">
+        <Link to="/homepage">
           <img className="logoheader" src="Oovyblanc2.png" alt="logo" />
         </Link>
       </div>
