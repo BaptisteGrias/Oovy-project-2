@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   margin-top: 10px;
 }
 
@@ -19,4 +19,5 @@ body {
   font-size: 4em;
   color: white;
   font-family: 'Oleo Script', solid;
+  letter-spacing: 5px;
 }
