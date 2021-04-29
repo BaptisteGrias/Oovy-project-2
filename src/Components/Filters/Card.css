@@ -1,11 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
 .filmTitle {
+  font-size: 2em;
+  font-family: 'Oleo Script', solid;
   color: aliceblue;
   text-align: center;
 }
 .conteneura {
   position: relative;
+  word-wrap: break-word;
 }
 .txtcontenu {
+  font-size: 1.2em;
+  text-align: center;
+  font-family: 'Oleo Script', solid;
   color: white;
   position: absolute;
   left: 0;
