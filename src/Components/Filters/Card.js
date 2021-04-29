@@ -7,7 +7,7 @@ const Card = ({ original_title, poster_path, backdrop_path, overview, vote_avera
   <div>
     <figure>
       <figcaption>
-        <p className="filmTitle">{original_title}</p>
+        <div className="filmTitle">{original_title}</div>
         <div className="conteneura">
           <img className="imgcontenu" src={posterUrl + poster_path} alt={backdrop_path} />
           <div class="txtcontenu">

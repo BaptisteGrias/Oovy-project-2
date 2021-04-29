@@ -33,6 +33,7 @@ function Filters() {
       <Categorie films={films} setFilmFilteredGenres={setFilmFilteredGenres} />
       <Dropdown startYear={1980} endYear={2012} />
       <Dropdown startYear={1980} endYear={2012} />
+      <div className="resultats">Resultats</div>
       <div className="filmList">
         {filmFilteredGenres.slice(0, limit ? limit : setFilmFilteredGenres.length).map((film, index) => (
           <Card
