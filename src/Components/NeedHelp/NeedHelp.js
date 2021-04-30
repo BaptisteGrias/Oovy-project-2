@@ -3,6 +3,7 @@ import './NeedHelp.css';
 import Headerallpages from '../headerallpages';
 import Footer from '../Footer/Footer';
 import GetMoovie from './GetMoovie';
+import GetTrailer from './GetTrailer';
 
 const NeedHelp = () => {
   return (
