@@ -8,9 +8,11 @@ import Categorie from './Categorie';
 import MobileNavigation from '../Filters/MobileNavigation';
 import Footer from '../Footer/Footer';
 
+
 function Filters() {
   const [films, setFilms] = useState([]);
   const [filmFilteredGenres, setFilmFilteredGenres] = useState(films);
+  const [limit, setLimit] = useState(3);
 
   const movieList = () => {
     axios
@@ -40,6 +42,7 @@ function Filters() {
         {filmFilteredGenres.map((film, index) => (
           <Card original_title={film.original_title} poster_path={film.poster_path} />
         ))}
+      </div>
       </div>
       <Footer />
     </div>

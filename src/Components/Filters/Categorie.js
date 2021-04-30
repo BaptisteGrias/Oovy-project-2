@@ -42,5 +42,4 @@ const Categorie = (props) => {
     </div>
   );
 };
-
 export default Categorie;

@@ -1,9 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './NeedHelp.css';
 import axios from 'axios';
 import CardFilm from './CardFilm';
+import GetTrailer from './GetTrailer';
+import CardTrailer from './CardTrailer';
 
-function GetMoovie() {
+function GetMoovie(props) {
   const [moovie, setMoovie] = useState([]);
 
   const RequestAPIMoovie = () => {
@@ -15,16 +17,32 @@ function GetMoovie() {
         setMoovie(data.items[Math.floor(Math.random() * 92)]);
       });
   };
+  useEffect(() => {
+    RequestAPIMoovie();
+  }, []);
 
   return (
-    <div className="App">
-      <h1>Need Help ?</h1>
-      <button type="button" onClick={() => RequestAPIMoovie()}>
-        C'est partis !
-      </button>
-      <div className="mooviebox">
-        <CardFilm original_title={moovie.original_title} poster_path={moovie.poster_path} overview={moovie.overview} />
+    <div className="ContainerBodyNeedHelp">
+      <div className="titleOneNeedHelp">
+        <h1 data-text="Need Help ?">
+          <span>Need Help ?</span>
+        </h1>
       </div>
+      <div className="mooviebox">
+        <CardFilm
+          original_title={moovie.original_title}
+          poster_path={moovie.poster_path}
+          overview={moovie.overview}
+          release_date={moovie.release_date}
+          /*id={moovie.id}*/
+        />
+      </div>
+      <div className="buttonRollingBox">
+        <button className="buttonRollingMoovie" type="button" onClick={() => RequestAPIMoovie()}>
+          Pas satisfait ?
+        </button>
+      </div>
+      );
     </div>
   );
 }
