@@ -43,7 +43,6 @@ function Filters() {
           <Card original_title={film.original_title} poster_path={film.poster_path} />
         ))}
       </div>
-      </div>
       <Footer />
     </div>
   );
