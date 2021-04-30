@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const img = 'Oovyblanc2.png';
 const textPara = "C'est l'heure parfaite pour un film !";
 const cardOne = "J'ai besoin d'aide !";
-const cardTwo = 'Laisser moi faire !';
+const cardTwo = 'Laissez-moi faire !';
 
 export default function Homepage() {
   return (
