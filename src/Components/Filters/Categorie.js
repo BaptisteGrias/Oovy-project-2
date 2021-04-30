@@ -5,7 +5,6 @@ import CategorieButton from './CategorieButton';
 
 const Categorie = (props) => {
   const { films, setFilmFilteredGenres } = props;
-
   const [categories, setCategories] = useState([]);
 
   const categorieList = () => {
