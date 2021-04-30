@@ -1,21 +1,21 @@
 import React from 'react';
-import "./Card.css";
+import './Card.css';
 
-const baseUrl = "https://api.themoviedb.org/3";
-const posterUrl = "https://image.tmdb.org/t/p/w200/"
-const Card = ({ original_title, poster_path, backdrop_path }) => (
-  <div>
-  <figure>
-    <figcaption>
-      <img src={posterUrl + poster_path} alt={backdrop_path} />
-      <p className="filmTitle">{original_title}</p>
-    </figcaption>
-  </figure>
-
-
-
+const baseUrl = 'https://api.themoviedb.org/3';
+const posterUrl = 'https://image.tmdb.org/t/p/w300/';
+const Card = ({ original_title, poster_path, backdrop_path, overview, vote_average, release_date }) => (
+  <div className="cardfilm">
+    <div className="filmTitle">{original_title}</div>
+    <div className="conteneura">
+      <img className="imgcontenu" src={posterUrl + poster_path} alt={backdrop_path} />
+      <div class="txtcontenu">
+        <div className="color">{'NOTE : ' + vote_average + '/10 . MDB'}</div>
+        <div className="color1">{'CINEMA RELEASE : ' + release_date}</div>
+        <div className="summarize">SUMMARISE :</div>
+        <div>{overview}</div>
+      </div>
+    </div>
   </div>
-
 );
 
 export default Card;

@@ -8,7 +8,6 @@ import Categorie from './Categorie';
 import MobileNavigation from '../Filters/MobileNavigation';
 import Footer from '../Footer/Footer';
 
-
 function Filters() {
   const [films, setFilms] = useState([]);
   const [filmFilteredGenres, setFilmFilteredGenres] = useState(films);
@@ -30,22 +29,30 @@ function Filters() {
   }, []);
 
   return (
-    <div>
-      <Headerallpages />
       <div>
-        <MobileNavigation films={films} setFilmFilteredGenres={setFilmFilteredGenres} />
-        <Categorie films={films} setFilmFilteredGenres={setFilmFilteredGenres} />
+        <Headerallpages />
+      <div>
+          <MobileNavigation films={films} setFilmFilteredGenres={setFilmFilteredGenres} />
+          <Categorie films={films} setFilmFilteredGenres={setFilmFilteredGenres} />
+        </div>
+        <Dropdown startYear={1980} endYear={2012} />
+        <Dropdown startYear={1980} endYear={2012} />
+        <div className="resultats">Resultats</div>
+        <div className="filmList">
+  
+          {filmFilteredGenres.slice(0, limit ? limit : setFilmFilteredGenres.length).map((film, index) => (
+            <Card
+              original_title={film.original_title}
+              poster_path={film.poster_path}
+              overview={film.overview}
+              vote_average={film.vote_average}
+              release_date={film.release_date}
+            />
+          ))}
+       </div>
+        <Footer />
       </div>
-      <Dropdown startYear={1980} endYear={2012} />
-      <Dropdown startYear={1980} endYear={2012} />
-      <div className="filmList">
-        {filmFilteredGenres.map((film, index) => (
-          <Card original_title={film.original_title} poster_path={film.poster_path} />
-        ))}
-      </div>
-      <Footer />
-    </div>
-  );
-}
+    );
+  }
 
 export default Filters;
