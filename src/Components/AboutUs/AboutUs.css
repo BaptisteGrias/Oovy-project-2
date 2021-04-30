@@ -18,10 +18,10 @@ body {
 .text1_aboutus {
   margin-top: 10%;
   font-size: 180%;
-  color: rgb(158, 70, 70);
-  font-family: Oleo Script solid;
+  color: white;
+  font-family: 'Oleo Script' solid;
   position: relative;
-  left: 12%;
+  left: 15%;
 }
 
 .contains {
@@ -29,13 +29,13 @@ body {
   width: 70%;
   border: 2px solid;
   position: relative;
-  left: 12%;
+  left: 15%;
 }
 
 .description {
-  color: rgb(158, 70, 70);
+  color: white;
   font-size: 1.2em;
-  font-family: Oleo Script solid;
+  font-family: 'Oleo Script' solid;
   word-wrap: break-word;
   margin: 10px 10px 10px 10px;
 }
