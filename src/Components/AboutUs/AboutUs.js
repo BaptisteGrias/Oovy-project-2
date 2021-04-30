@@ -4,7 +4,7 @@ import Headerallpages from '../headerallpages';
 import Footer from '../Footer/Footer';
 
 const paraOne = 'A propos :';
-const description = "Ceci est la description des membres de l'équipe Oovy et blabla et blabla";
+const description = "Ceci est la description des membres de l'équipe Oovy ";
 
 const AboutUs = () => {
   return (
