@@ -9,11 +9,6 @@
   display: none;
 }
 
-.Footer {
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
 
 @media (max-width: 769px) {
   .boutonCategorie {
@@ -31,9 +26,4 @@
     justify-content: center;
   }
 
-  .Footer {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-  }
 }

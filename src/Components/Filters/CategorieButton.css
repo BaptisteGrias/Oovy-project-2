@@ -70,7 +70,7 @@ div b p span.base:before {
 div b p span.bg { 
    left: -5%; 
    position: absolute; 
-   background: #ff4655; 
+   background: rgb(158, 70, 70); 
    width: 0; 
    height: 100%; 
    z-index: 3; 
