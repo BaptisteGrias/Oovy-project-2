@@ -1,13 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
 body {
   background-color: #20212a;
   background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
   margin: 0;
 }
 
-.filmList{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 10px;
-  }
+.filmList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.resultats {
+  text-align: center;
+  font-size: 4em;
+  color: white;
+  font-family: 'Oleo Script', solid;
+  letter-spacing: 5px;
+}

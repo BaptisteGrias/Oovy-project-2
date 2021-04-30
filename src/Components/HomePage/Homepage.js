@@ -1,11 +1,12 @@
 import React from 'react';
 import './Homepage.css';
 import { Link } from 'react-router-dom';
+import Footer from '../Footer/Footer';
 
 const img = 'Oovyblanc2.png';
 const textPara = "C'est l'heure parfaite pour un film !";
 const cardOne = "J'ai besoin d'aide !";
-const cardTwo = 'Laisser moi faire !';
+const cardTwo = 'Laissez-moi faire !';
 
 export default function Homepage() {
   return (
@@ -25,6 +26,7 @@ export default function Homepage() {
           <p className="text2">{cardTwo}</p>
         </Link>
       </div>
+      <Footer />
     </div>
   );
 }
