@@ -1,8 +1,7 @@
 Oovy Guidelines :
 
-Nom branche : nomUserStory_section (exemple : P2WCS14_footerMobile)
-
-
+Npm install axios
+Npm install react-icons
 
 
 .
