@@ -1,3 +1,13 @@
+.traitFilter {
+  opacity: 0.7;
+  width: 70%;
+  border-top: 2px solid;
+  margin: auto;
+  margin-top: -4.5em;
+  margin-bottom: 5em;
+  color: rgb(158, 70, 70);
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
 
 body {

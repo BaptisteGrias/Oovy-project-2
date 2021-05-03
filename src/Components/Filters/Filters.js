@@ -30,6 +30,7 @@ function Filters() {
   return (
     <div>
       <Headerallpages />
+      <div className="traitFilter"></div>
       <div>
         <MobileNavigation films={films} setFilmFilteredGenres={setFilmFilteredGenres} />
         <Categorie films={films} setFilmFilteredGenres={setFilmFilteredGenres} />

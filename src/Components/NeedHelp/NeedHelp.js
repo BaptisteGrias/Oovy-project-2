@@ -9,6 +9,7 @@ const NeedHelp = () => {
   return (
     <div>
       <Headerallpages />
+      <div className="traitNeedHelp"></div>
       <GetMoovie />
       <Footer />
     </div>
