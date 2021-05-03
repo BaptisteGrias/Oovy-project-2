@@ -30,6 +30,7 @@
 
   .closeIcon {
     margin-top: -2em;
+    margin-right: -2em;
   }
   .openIcon {
     display: flex;
