@@ -1,5 +1,5 @@
 import React from 'react';
-import './Card.css';
+import './card.css';
 
 const baseUrl = 'https://api.themoviedb.org/3';
 const posterUrl = 'https://image.tmdb.org/t/p/w300/';

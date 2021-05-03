@@ -1,5 +1,5 @@
 import React from 'react';
-import './CategorieButton.css';
+import './categorieButton.css';
 
 const CategorieButton = ({ genre_id, genre_name, handlefilterFilmByCategorie }) => (
   <b onClick={(e) => handlefilterFilmByCategorie(e, genre_id)} name={genre_id} className="transparent">
