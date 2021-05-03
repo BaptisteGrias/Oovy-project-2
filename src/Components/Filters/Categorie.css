@@ -1,4 +1,4 @@
-.boutonCategorie {
+.buttonCategory {
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -9,9 +9,8 @@
   display: none;
 }
 
-
 @media (max-width: 769px) {
-  .boutonCategorie {
+  .buttonCategory {
     display: none;
   }
 
@@ -25,5 +24,4 @@
     display: flex;
     justify-content: center;
   }
-
 }

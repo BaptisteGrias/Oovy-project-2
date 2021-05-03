@@ -3,8 +3,7 @@ import './Categorie.css';
 import axios from 'axios';
 import CategorieButton from './CategorieButton';
 
-const Categorie = (props) => {
-  const { films, setFilmFilteredGenres } = props;
+const Categorie = ({ films, setFilmFilteredGenres }) => {
   const [categories, setCategories] = useState([]);
 
   const categorieList = () => {
@@ -29,7 +28,7 @@ const Categorie = (props) => {
 
   return (
     <div>
-      <div className="boutonCategorie">
+      <div className="buttonCategory">
         {categories.map((categorie, index) => (
           <CategorieButton
             key={index}
