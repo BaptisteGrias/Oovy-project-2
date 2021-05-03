@@ -1,10 +1,10 @@
 import React from 'react';
-import './Footer.css';
+import './footer.css';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <div className="Footer">
+    <div className="footer">
       <div className="row1">
         <div className="col1">
           <a href="https://www.themoviedb.org/" target="_blank">

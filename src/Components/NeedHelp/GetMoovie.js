@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './NeedHelp.css';
+import './needHelp.css';
 import axios from 'axios';
 import CardFilm from './CardFilm';
 import GetTrailer from './GetTrailer';
@@ -13,7 +13,6 @@ function GetMoovie(props) {
       .get('https://api.themoviedb.org/3/list/99?api_key=e68df8fb360e2ffe69d4812e69dd24b0')
       .then((response) => response.data)
       .then((data) => {
-        console.log(data.items);
         setMoovie(data.items[Math.floor(Math.random() * 92)]);
       });
   };
