@@ -1,3 +1,7 @@
+.transparent {
+  min-width: 15em;
+}
+
 .buttonCategory {
   display: flex;
   justify-content: center;
@@ -9,7 +13,7 @@
   display: none;
 }
 
-@media (max-width: 769px) {
+@media (max-width: 768px) {
   .buttonCategory {
     display: none;
   }
@@ -19,6 +23,10 @@
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+
+  .closeIcon {
+    margin-top: -2em;
   }
   .openIcon {
     display: flex;
