@@ -1,5 +1,5 @@
 import React from 'react';
-import './needHelp.css';
+import './NeedHelp.css';
 import Headerallpages from '../headerallpages';
 import Footer from '../Footer/Footer';
 import GetMoovie from './GetMoovie';

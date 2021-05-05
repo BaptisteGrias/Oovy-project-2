@@ -1,5 +1,5 @@
 import GetMoovie from './GetMoovie';
-import './needHelp.css';
+import './NeedHelp.css';
 
 const url = 'https://image.tmdb.org/t/p/w500/';
 const urlTrailer = 'https://api.themoviedb.org/3/movie/';

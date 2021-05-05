@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './needHelp.css';
+import './NeedHelp.css';
 import axios from 'axios';
 import CardFilm from './CardFilm';
 import GetTrailer from './GetTrailer';
