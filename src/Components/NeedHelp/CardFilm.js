@@ -2,6 +2,7 @@ import CardTrailer from './CardTrailer';
 import GetMoovie from './GetMoovie';
 import GetTrailer from './GetTrailer';
 import './NeedHelp.css';
+
 const url = 'https://image.tmdb.org/t/p/w500/';
 const urlYoutube = 'https://www.youtube.com/watch?v=';
 const MyIDone = 'https://api.themoviedb.org/3/movie/';
