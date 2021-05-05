@@ -1,8 +1,11 @@
-const urlYoutube = 'https://www.youtube.com/watch?v=';
+import React from 'react';
+import GetTrailer from '../NeedHelp/GetTrailer';
+import { YoutubePlayer } from 'reactjs-media';
 
-const CardTrailer = ({ key }) => (
-  <div className="containerRenderMoovieSyno">
-    <p>{urlYoutube + key}</p>
+const urlYoutube = 'https://www.youtube.com/watch?v=';
+const CardTrailer = ({ id, keys, names, size }) => (
+  <div>
+    <YoutubePlayer src={urlYoutube + keys} width={900} height={450} />
   </div>
 );
 
