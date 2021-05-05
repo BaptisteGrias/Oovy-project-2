@@ -1,12 +1,7 @@
 import CardTrailer from './CardTrailer';
 import GetMoovie from './GetMoovie';
-<<<<<<< HEAD
-import './needHelp.css';
-
-=======
 import GetTrailer from './GetTrailer';
 import './NeedHelp.css';
->>>>>>> P2WCS40_REFRESH
 const url = 'https://image.tmdb.org/t/p/w500/';
 const urlYoutube = 'https://www.youtube.com/watch?v=';
 const MyIDone = 'https://api.themoviedb.org/3/movie/';
@@ -27,5 +22,3 @@ const CardFilm = ({ overview, original_title, backdrop_path, poster_path, releas
 );
 
 export default CardFilm;
-
-/* Populate, Tagline(phrase d'accroche), année de sortie, note, le genre */

@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import CardTrailer from './CardTrailer';
@@ -47,4 +44,3 @@ export default function GetTrailer({ id, keys }) {
     </div>
   );
 }
->>>>>>> P2WCS40_REFRESH
