@@ -1,0 +1,27 @@
+.buttonCategory {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.showCategorie {
+  display: none;
+}
+
+@media (max-width: 769px) {
+  .buttonCategory {
+    display: none;
+  }
+
+  .showCategorie {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .openIcon {
+    display: flex;
+    justify-content: center;
+  }
+}
