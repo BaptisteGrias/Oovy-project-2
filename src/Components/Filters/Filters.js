@@ -20,6 +20,7 @@ function Filters() {
       .then((response) => response.data)
       .then((data) => {
         setFilms(data.items);
+        console.log(films);
       });
   };
 
