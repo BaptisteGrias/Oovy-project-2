@@ -1,11 +1,14 @@
+
+
 .footer {
+
   background-color: #20212a;
   background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
   color: white;
   margin: 1px;
-  margin-top: 10em;
-  position: absolute;
-  width: 100%;
+position: relative;
+  bottom: 0;
+ width: 100%;
 }
 
 .row1 {
@@ -27,11 +30,6 @@ hr {
 
 .row2 {
   text-align: center;
-}
-
-.col3 a {
-  text-decoration: none;
-  color: white;
 }
 
 @media (min-width: 400px) and (max-width: 625px) {
