@@ -1,30 +1,25 @@
-import React, { useEffect, useState } from "react";
-import ListeDeroulante from "./ListeDeroulanteAnnees";
-
+import React, { useEffect, useState } from 'react';
+import ListeDeroulante from './ListeDeroulanteAnnees';
 
 const Years = (props) => {
-  const {films, filmFilteredByYears, setFilmFilteredByYears} = props;
+  const { films, filmFilteredByYears, setFilmFilteredByYears } = props;
 
-      const handleFilmByYears = (e) => {
-       
-        let selectedValue = e.target.value;
-        
+  const handleFilmByYears = (e) => {
+    let selectedValue = e.target.value;
 
-        const moviesByYears =  films
-                .filter((film) =>  film.release_date.includes(selectedValue))
-                setFilmFilteredByYears(moviesByYears)
-        
-        e.preventDefault();
-      }
-    
-    console.log("films filtre year", filmFilteredByYears);
+    const moviesByYears = films.filter((film) => film.release_date.includes(selectedValue));
+    setFilmFilteredByYears(moviesByYears);
 
+    e.preventDefault();
+  };
 
-    return (
-      <div>
-        <ListeDeroulante handleFilmByYears={handleFilmByYears} startYear={1980} endYear={2012} />
-      </div>
+  console.log('films filtre year', filmFilteredByYears);
 
-    )};
-  
-  export default Years;
+  return (
+    <div>
+      <ListeDeroulante handleFilmByYears={handleFilmByYears} startYear={1980} endYear={2012} />
+    </div>
+  );
+};
+
+export default Years;
