@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 //import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { YoutubePlayer } from 'reactjs-media';
 //import 'semantic-ui-css/semantic.min.css';
 
 ReactDOM.render(
