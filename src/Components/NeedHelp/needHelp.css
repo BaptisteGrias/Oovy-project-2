@@ -8,48 +8,54 @@
 }
 
 /* Trailer CSS Here >> */
-.boxTrailerMoovie {
-  width: 80%;
-  height: 50%;
+
+.boxButton {
+  display: flex;
+  justify-content: center;
+}
+.buttonAndTrailer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mooviebox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.containerBoxTrailer {
+  display: flex;
+  justify-content: center;
 }
 
 /* Display Moovie Card Here >> */
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
 
-.moovieDate {
-  display: block;
-  border: solid 5px rgb(158, 70, 70);
-  width: 40%;
-  letter-spacing: 5px;
-  color: white;
-  background-color: black;
-  font-size: 25px;
-}
-
 .ContainerBodyNeedHelp {
   display: block;
-
   justify-content: space-between;
 }
 .containerRenderMoovieSyno {
   display: flex;
-
-  width: 100%;
-  height: 30%;
+  flex-direction: row-reverse;
   justify-content: space-around;
+  width: 100%;
   height: auto;
+  margin: 10px;
+  padding: 10px;
 }
 
 .containerTitleSyno {
   display: flex;
-  justify-content: flex-start;
   flex-direction: column;
-  column-count: 1;
-  width: 40%;
-  height: auto;
   align-items: center;
-
+  column-count: 1;
+  width: 60%;
+  height: auto;
   font-family: 'Oleo Script', solid;
+  justify-content: center;
 }
 
 .SynopsisCardMoovie {
@@ -61,46 +67,69 @@
 
 .buttonRollingBox {
   display: flex;
+  width: 100%;
+  height: auto;
   justify-content: center;
 }
+
 .buttonRollingMoovie {
-  width: 300px;
   display: flex;
+  border: rgb(158, 70, 70) 2px solid;
+  color: white;
+  background-color: inherit;
+  border-radius: 5%;
+  width: 200px;
+  height: 40px;
   justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  box-shadow: 1px 1px 10px 2px rgb(158, 70, 70);
+}
+.buttonrrolling {
+  border: rgb(158, 70, 70) 2px solid;
+  color: white;
+  background-color: inherit;
+  width: 200px;
+  height: 40px;
+  font-size: x-large;
+  box-shadow: 1px 1px 10px 2px rgb(158, 70, 70);
 }
 
 .mooviebox {
   display: flex;
   text-align: center;
-  border: white 5px;
 }
 .titleMoovieCard {
   display: block;
-  border: rgb(158, 70, 70) 3px solid;
-  width: 60%;
+  padding: 10px;
+  border-radius: 5%;
   color: white;
   font-size: 35px;
-  background-color: black;
   letter-spacing: 5px;
 }
 
 .imgMoovieCard {
   display: block;
   text-align: center;
-  border: 3px solid rgb(158, 70, 70);
+  margin: 20px;
+  border: 2px solid rgb(158, 70, 70);
+  box-shadow: 1px 1px 10px 5px rgb(158, 70, 70);
 }
 .textMoovieCard {
-  opacity: 0.7;
-  height: auto;
-  width: 25em;
-  background-color: black;
-  border: 3px solid rgb(158, 70, 70);
-  border-radius: 2%;
-  margin-right: 1em;
   display: flex;
+  padding: 10px;
+  border-radius: 2%;
   font-size: 25px;
-  text-decoration: none;
   color: white;
+}
+
+.moovieDate {
+  display: block;
+  width: 35%;
+  border-radius: 5%;
+  letter-spacing: 5px;
+  color: white;
+  font-size: 25px;
 }
 
 /* Animation Need Help Here >> */
@@ -217,5 +246,36 @@ h1::after {
 
   100% {
     transform: translate(-49%, -53%);
+  }
+}
+@media (min-width: 375px) and (max-width: 850px) {
+  .containerRenderMoovieSyno {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .containerTitleSyno {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    column-count: 1;
+    width: 100%;
+    height: auto;
+    font-family: 'Oleo Script', solid;
+  }
+
+  .titleMoovieCard {
+    display: block;
+    width: 50%;
+    padding: 5px;
+    border-radius: 5%;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 3px;
   }
 }
