@@ -3,7 +3,11 @@ import './Categorie.css';
 import axios from 'axios';
 import CategorieButton from './CategorieButton';
 
-const Categorie = ({ films, setFilmFilteredGenres }) => {
+const Categorie = ({ 
+    films,
+    setFilmsFilteredFinal,
+    filmFilteredGenres,
+    setFilmFilteredGenres }) => {
   const [categories, setCategories] = useState([]);
 
   const categorieList = () => {
@@ -23,7 +27,7 @@ const Categorie = ({ films, setFilmFilteredGenres }) => {
     event.preventDefault();
     const moviesByGenre = films.filter((film) => film.genre_ids.includes(genre_id));
 
-    setFilmFilteredGenres(moviesByGenre);
+    setFilmsFilteredFinal(moviesByGenre);
   };
 
   return (
