@@ -5,51 +5,52 @@ import Headerallpages from '../headerallpages';
 import Footer from '../Footer/Footer';
 
 const paraOne = 'A propos :';
-const description = "Ceci est la description des membres de l'équipe Oovy ";
+const description =
+  'Oovy, application développé en 2021, vous permettant de trouver le film de votre choix, OU PAS. Idéal pour ne pas perdre de temps à choisir ! Oovy le fait pour vous !';
 const cards = [
   {
     src: 'img/Edouard-LARROCHE.png',
-    name: 'Edouard LARROCHE',
-    text: 'Some quick example text to build on the card title and make up the bulk of the card',
+    name: 'Edouard Larroche',
+    text: '35 ans, développeur web front end en formation WCS',
     link_github: 'https://github.com/Edouard-LARROCHE',
     logo_git: 'img/github.png',
     link_linkedin: 'https://www.linkedin.com/in/edouard-larroche-9099a6163/',
     logo_linkedin: 'img/linkedin.png',
   },
   {
-    src: 'img/marieanne-duvieu.png',
-    name: 'Marie-Anne DUVIEU',
-    text: 'Some quick example text to build on the card title and make up the bulk of the card',
-    link_github: 'https://github.com/Edouard-LARROCHE',
+    src: 'img/marieanne-duvieu.jpg',
+    name: 'Marie-Anne Duvieu',
+    text: '29 ans, développeuse web front end en formation WCS',
+    link_github: 'https://github.com/Sseven-lab',
     logo_git: 'img/github.png',
-    link_linkedin: 'https://www.linkedin.com/in/edouard-larroche-9099a6163/',
+    link_linkedin: 'https://www.linkedin.com/in/Sseven-lab/',
     logo_linkedin: 'img/linkedin.png',
   },
   {
-    src: 'img/baptiste-grias.png',
+    src: 'img/baptiste-grias.jpg.jpeg',
     name: 'Baptiste Grias',
-    text: 'Some quick example text to build on the card title and make up the bulk of the card',
-    link_github: 'https://github.com/Edouard-LARROCHE',
+    text: '30 ans, développeur web front end en formation WCS',
+    link_github: 'https://github.com/BaptisteGrias',
     logo_git: 'img/github.png',
-    link_linkedin: 'https://www.linkedin.com/in/edouard-larroche-9099a6163/',
+    link_linkedin: 'https://www.linkedin.com/in/baptiste-grias-4bbba8171/',
     logo_linkedin: 'img/linkedin.png',
   },
   {
     src: 'img/gregory-bouteville.jpg',
-    name: 'Gregory BOUTEVILLE',
-    text: 'Some quick example text to build on the card title and make up the bulk of the card',
-    link_github: 'https://github.com/Edouard-LARROCHE',
+    name: 'Gregory Bouteville',
+    text: '40 ans, développeur web front end en formation WCS',
+    link_github: 'https://github.com/Gregory-Bouteville',
     logo_git: 'img/github.png',
-    link_linkedin: 'https://www.linkedin.com/in/edouard-larroche-9099a6163/',
+    link_linkedin: 'https://www.linkedin.com/in/gregory-bouteville-14b464207',
     logo_linkedin: 'img/linkedin.png',
   },
   {
     src: 'img/Touyard-Kevin.jpg',
-    name: 'Kevin TOUYARD',
-    text: 'Some quick example text to build on the card title and make up the bulk of the card',
-    link_github: 'https://github.com/Edouard-LARROCHE',
+    name: 'Kevin Touyard',
+    text: '28 ans, développeur web front end en formation WCS',
+    link_github: 'https://github.com/TouyardK',
     logo_git: 'img/github.png',
-    link_linkedin: 'https://www.linkedin.com/in/edouard-larroche-9099a6163/',
+    link_linkedin: 'https://www.linkedin.com/in/TouyardK/',
     logo_linkedin: 'img/linkedin.png',
   },
 ];

@@ -6,7 +6,7 @@ import { RiMenuAddFill } from 'react-icons/ri';
 import { RiCloseCircleLine } from 'react-icons/ri';
 
 const CategorieBis = (props) => {
-  const { films, setFilmFilteredGenres } = props;
+  const { films, setFilmsFilteredFinal } = props;
   const [categories, setCategories] = useState([]);
 
   const categorieList = () => {
@@ -26,7 +26,7 @@ const CategorieBis = (props) => {
     event.preventDefault();
     const moviesByGenre = films.filter((film) => film.genre_ids.includes(genre_id));
 
-    setFilmFilteredGenres(moviesByGenre);
+    setFilmsFilteredFinal(moviesByGenre);
   };
 
   const [showCategorie, setShowCategorie] = useState(false);
