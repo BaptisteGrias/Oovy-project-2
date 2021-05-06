@@ -18,7 +18,7 @@ const cards = [
     logo_linkedin: 'img/linkedin.png',
   },
   {
-    src: 'img/marieanne-duvieu.jpg',
+    src: 'img/marieanne-duvieu.png',
     name: 'Marie-Anne Duvieu',
     text: '29 ans, développeuse web front end en formation WCS',
     link_github: 'https://github.com/Sseven-lab',
@@ -27,7 +27,7 @@ const cards = [
     logo_linkedin: 'img/linkedin.png',
   },
   {
-    src: 'img/baptiste-grias.jpg.jpeg',
+    src: 'img/baptiste-grias.png',
     name: 'Baptiste Grias',
     text: '30 ans, développeur web front end en formation WCS',
     link_github: 'https://github.com/BaptisteGrias',
