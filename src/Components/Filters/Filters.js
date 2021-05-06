@@ -6,12 +6,15 @@ import axios from 'axios';
 import Card from './Card';
 import Categorie from './Categorie';
 import MobileNavigation from '../Filters/MobileNavigation';
+import Notation from './Rating/Rating';
+import FinalFilmsFilters from './FinalFilmsFilters';
 import Footer from '../Footer/Footer';
 
 function Filters() {
   const [films, setFilms] = useState([]);
+  const [filmsFilteredFinal, setFilmsFilteredFinal] = useState([]);
   const [filmFilteredGenres, setFilmFilteredGenres] = useState(films);
-  const [filmFilteredByYears, setFilmFilteredByYears] = useState(films);
+  
   const [limit, setLimit] = useState(3);
 
   const movieList = () => {
@@ -33,38 +36,43 @@ function Filters() {
       <Headerallpages />
       <div className="traitFilter"></div>
       <div>
-        <MobileNavigation films={films} setFilmFilteredGenres={setFilmFilteredGenres} />
-        <Categorie films={films} setFilmFilteredGenres={setFilmFilteredGenres} />
+        <MobileNavigation films={films} setFilmsFilteredFinal={setFilmsFilteredFinal} />
+        <Categorie 
+          films={films}   
+          setFilmsFilteredFinal={setFilmsFilteredFinal}
+          filmFilteredGenres={filmFilteredGenres}
+          setFilmFilteredGenres={setFilmFilteredGenres}
+        />
       </div>
+      <div className="yearsNotationDiv">
+      <div className="yearsComponent">
       <Years
         films={films}
-        filmFilteredByYears={filmFilteredByYears}
-        setFilmFilteredByYears={setFilmFilteredByYears}
+        setFilmsFilteredFinal={setFilmsFilteredFinal}
         releaseDate={films.release_date}
       />
+      </div>
+
+      <div className="notationComponent">
+        <Notation 
+          films={films} 
+          setFilmsFilteredFinal={setFilmsFilteredFinal}        
+        />
+        </div>
+
+      </div>
+      
       <div className="resultats">Resultats</div>
-      <div className="filmList">
-        {filmFilteredGenres.slice(0, limit ? limit : setFilmFilteredGenres.length).map((film, index) => (
-          <Card
-            original_title={film.original_title}
-            poster_path={film.poster_path}
-            overview={film.overview}
-            vote_average={film.vote_average}
-            release_date={film.release_date}
-          />
-        ))}
-      </div>
-      <div className="filmList">
-        {filmFilteredByYears.slice(0, limit ? limit : filmFilteredByYears.length).map((film, index) => (
-          <Card
-            original_title={film.original_title}
-            poster_path={film.poster_path}
-            overview={film.overview}
-            vote_average={film.vote_average}
-            release_date={film.release_date}
-          />
-        ))}
-      </div>
+
+        <div>
+        <FinalFilmsFilters 
+          films={films}
+          setFilms={setFilms}
+          filmsFilteredFinal={filmsFilteredFinal} 
+          setFilmsFilteredFinal={setFilmsFilteredFinal} 
+          limit={limit}
+         />
+        </div>
       <Footer />
     </div>
   );
