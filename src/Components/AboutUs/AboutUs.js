@@ -18,6 +18,7 @@ const cards = [
     logo_linkedin: 'img/linkedin.png',
   },
   {
+
     src: 'img/marieanne-duvieu.png',
     name: 'Marie-Anne Duvieu',
     text: '29 ans, développeuse web front end en formation WCS',
