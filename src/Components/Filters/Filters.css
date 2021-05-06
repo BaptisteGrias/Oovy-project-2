@@ -37,3 +37,14 @@ body {
   flex-direction: row;
   justify-content: space-around;
   }
+
+/*********************************Media-Queries***************************/
+
+@media (max-width: 475px) {
+  .yearsNotationDiv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 7%;
+    }
+}
