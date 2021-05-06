@@ -1,14 +1,11 @@
-
-
 .footer {
-
   background-color: #20212a;
   background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
   color: white;
   margin: 1px;
-position: relative;
+  position: relative;
   bottom: 0;
- width: 100%;
+  width: 100%;
 }
 
 .row1 {
