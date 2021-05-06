@@ -7,11 +7,11 @@
 .filmTitle {
   height: 130px;
   font-size: 2em;
+  color: rgb(158, 70, 70);
   font-family: 'Oleo Script', solid;
-  color: aliceblue;
+
   text-align: center;
   margin-top: 1em;
-  margin-bottom: 0.5em;
 }
 
 .conteneura {
@@ -24,7 +24,9 @@
   text-align: center;
   font-family: 'Oleo Script', solid;
   color: white;
+  opacity: 0.7;
   position: absolute;
+  margin-top: 0.3em;
   left: 0;
   top: 0;
   opacity: 0;

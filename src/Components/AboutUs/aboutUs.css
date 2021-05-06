@@ -19,7 +19,7 @@ body {
   margin-top: 10%;
   font-size: 180%;
   color: white;
-  font-family: 'Oleo Script' solid;
+  font-family: 'Oleo Script', solid;
   position: relative;
   left: 15%;
 }
@@ -35,9 +35,65 @@ body {
 .description {
   color: white;
   font-size: 1.2em;
-  font-family: 'Oleo Script' solid;
+  font-family: 'Oleo Script', solid;
   word-wrap: break-word;
-  margin: 10px;
+  margin: 10px 10px 10px 10px;
 }
 
-/*********************************Media-Queries***************************/
+/*********************************Card***************************/
+.card-contact {
+  margin-top: 10em;
+  margin-bottom: 10em;
+  margin-left: 1em;
+  margin-right: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 30em;
+}
+
+.card {
+  border: 5px solid black;
+  max-width: 15em;
+  margin: 5px;
+  background-color: rgb(158, 70, 70, 0.7);
+}
+
+.card-img {
+  width: 100%;
+  height: 14em;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.card-body {
+  height: 30%;
+}
+
+.card-name {
+  height: 25%;
+  text-align: center;
+  font-family: 'Oleo Script', solid;
+}
+
+.card-text {
+  font-family: 'Oleo Script', solid;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.link {
+  text-align: center;
+  position: relative;
+  bottom: 0;
+}
+
+.btn-link {
+  max-width: 15%;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.btn-link2 {
+  width: 15%;
+  border-radius: 8px;
+}
