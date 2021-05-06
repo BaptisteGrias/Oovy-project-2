@@ -20,7 +20,6 @@ body {
   font-size: 180%;
   color: white;
   font-family: 'Oleo Script', solid;
-
   position: relative;
   left: 15%;
 }
@@ -99,4 +98,3 @@ body {
   border-radius: 8px;
 }
 
-/*********************************Media-Queries***************************/
