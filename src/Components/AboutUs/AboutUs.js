@@ -6,7 +6,7 @@ import Footer from '../Footer/Footer';
 
 const paraOne = 'A propos :';
 const description =
-  'Oovy, application développé en 2021, vous permettant de trouver le film de votre choix, OU PAS. Idéal pour ne pas perdre de temps à choisir ! Oovy le fait pour vous !';
+  'Oovy, application développée en 2021, vous permettant de trouver le film de votre choix, OU PAS. Idéal pour ne pas perdre de temps à choisir ! Oovy le fait pour vous !';
 const cards = [
   {
     src: 'img/Edouard-LARROCHE.png',
