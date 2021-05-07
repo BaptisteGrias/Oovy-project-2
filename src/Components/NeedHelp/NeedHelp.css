@@ -268,6 +268,14 @@ h1::after {
 }
 
 @media (min-width: 720px) and (max-width: 1270px) {
+
+  .TrailerResp {
+    display: flex;
+    height: auto;
+    width: 680px;
+  }
+
+
   .containerRenderMoovieSyno {
     display: flex;
     flex-direction: column-reverse;
@@ -310,6 +318,16 @@ h1::after {
 }
 
 @media (min-width: 250px) and (max-width: 720px) {
+  .TrailerResp {
+    display: flex;
+    width: 300px;
+    height: auto;
+  }
+
+  .imgMoovieCard {
+    width: 350px;
+    height: 550px;
+=======
   .imgMoovieCard {
     width: 300px;
     height: 500px;
