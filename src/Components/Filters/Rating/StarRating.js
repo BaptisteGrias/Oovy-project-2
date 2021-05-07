@@ -7,7 +7,7 @@ const StarRating = ({ handleFilmByRate, rating, setRating }) => {
 
     return (
         <div>
-          {[...Array(10)].map((star, i) => {
+          {[...Array(8)].map((star, i) => {
            const ratingValue = i + 1;
             return (
               <label>
