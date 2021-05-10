@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+/* Header start */
+.boxTitleReactGames {
+  display: flex;
+  justify-content: center;
+  border: solid 3px black;
+  background-color: cornsilk;
+}
+
+.titleWelcomeToReact {
+  font-size: 45px;
+  letter-spacing: 15px;
+}
+/* Header end */
+
+.CardNameBox {
+  border: solid 5px red;
+  height: 500px;
+}
+/*Game Card start*/
+.CardNameBox {
+  width: 300px;
+}
+
+/*Game Card end*/
