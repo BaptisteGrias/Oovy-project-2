@@ -3,7 +3,7 @@ import './Filters.css';
 import Headerallpages from '../headerallpages';
 import Years from './Years/Years';
 import axios from 'axios';
-import Card from './Card';
+// import Card from './Card';
 import Categorie from './Categorie';
 import MobileNavigation from '../Filters/MobileNavigation';
 import Notation from './Rating/Rating';
@@ -15,7 +15,7 @@ function Filters() {
   const [filmsFilteredFinal, setFilmsFilteredFinal] = useState([]);
   const [filmFilteredGenres, setFilmFilteredGenres] = useState(films);
   
-  const [limit, setLimit] = useState(3);
+  const [limit] = useState(3);
 
   const movieList = () => {
     axios

@@ -3,7 +3,7 @@ import React from 'react';
 function Contact(props) {
   return (
     <div className="card">
-      <img src={props.src} className="card-img" alt="picture" />
+      <img src={props.src} className="card-img" alt="profil" />
       <div className="card-body">
         <h2 className="card-name">{props.name}</h2>
         <p className="card-text">{props.text}</p>
